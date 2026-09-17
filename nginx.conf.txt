@@ -2,7 +2,7 @@ worker_processes auto;
 events {}
 stream {
     upstream backend {
-        server 144.172.65.75:80;
+        server 80.66.65.147:80;
     }
     server {
         listen 8080;
